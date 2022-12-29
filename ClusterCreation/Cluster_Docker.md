@@ -132,6 +132,7 @@ sudo kubeadm join 10.18.0.30:6443 --token 06fdx2qa.v2jxfdfdflapu54gi3s41 --disco
 ```bash
 
 # Verify the cluster status by executing kubectl command on the master node
+kubectl get pods -n kube-system
 kubectl get nodes
 
 
